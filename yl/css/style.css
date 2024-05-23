@@ -1,0 +1,238 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+body {
+    background: url(../images/bg.jpeg);
+}
+
+#mybox {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.banner {
+    width: 100%;
+    font-size: 0px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+nav {
+    background-color: #d09873;
+    font-size: 0px;
+}
+
+nav a {
+    display: inline-block;
+    font-size: 16px;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    color: #4ccfff;
+}
+
+#main {
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.main_left {
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
+
+.main_left img {
+    width: 100%;
+    height: 403px;
+}
+
+.main_left_txt {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+    top: 10px;
+}
+
+.main_left_txt p {
+    line-height: 30px;
+}
+
+
+.main_left_txt h4 {
+    color: #d09873;
+    top: 0px;
+}
+
+.main_right {
+    display: inline-block;
+    width: 640px;
+
+}
+
+.main_right h2 {
+    color: #d09873;
+    margin-bottom: 20px;
+}
+
+.index_h2 {
+    margin-top: 20px;
+}
+
+.book_txt {
+    line-height: 30px;
+}
+
+.img_list {
+    width: 100%;
+    font-size: 0px;
+}
+
+.img_list img {
+    width: 30%;
+    margin-left: 5%;
+}
+
+.img_list img:first-child {
+    margin-left: 0px;
+}
+
+footer {
+    width: 1000px;
+    background-color: #d09873;
+    color: #4ccfff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+/* 图书yls */
+#main h1 {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0px;
+    margin-bottom: 30px;
+}
+
+.book_list li img {
+    width: 130px;
+    height: 194px;
+}
+
+.book_list li {
+    height: 194px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.book_list li:nth-child(2n-1) img {
+    float: left;
+    margin-right: 20px;
+}
+
+.book_list li:nth-child(2n) img {
+    float: right;
+    margin-left: 20px;
+}
+
+.book_title {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.book_txt {
+    line-height: 23px;
+}
+
+.photo_list {
+    width: 100%;
+    font-size: 0px;
+}
+
+.photo_list img {
+    width: 23.5%;
+    height: 225px;
+    margin-left: 2%;
+    margin-bottom: 20px;
+}
+
+.photo_list img:nth-child(4n-3) {
+    margin-left: 0px;
+}
+
+video {
+    width: 100%;
+}
+
+.music_list {
+    width: 100%;
+    text-align: center;
+    font-size: 0px;
+    text-align: left;
+}
+
+.music_list li {
+    width: 32%;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-left: 2%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.music_list li:nth-child(3n-2) {
+    margin-left: 0px;
+}
+
+.music_list li p {
+    margin: 10px 0px;
+}
+
+.music_list li audio {
+    height: 20px;
+}
+
+.music_list img {
+    width: 100%;
+}
+
+.img2 {
+    width: 300px;
+    float: left;
+    margin-right: 100px;
+    margin-left: 50px;
+
+}
+
+#msg_form>div {
+    display: inline-block;
+}
+
+#msg_form>div>form>div {
+    margin-bottom: 20px;
+}
+
+#msg_form>div>form>div span {
+    display: inline-block;
+    width: 100px;
+}
+
+.input1 input {
+    width: 220px;
+    height: 24px;
+}
+
+.input2 {}
